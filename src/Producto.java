@@ -5,7 +5,7 @@ public class Producto {
     private String marca;
     private double precio;
 
-    // Constructor
+    // Constructor con parametros para inicializar variables
     public Producto(int id, String nombre, String marca, double precio) {
         this.id = id;
         this.nombre = nombre;
@@ -25,15 +25,19 @@ public class Producto {
     // Getters
     public int getId() { return id; }
     public String getCodigo() {
+
         return codigo;
     }
     public String getNombre() {
+
         return nombre;
     }
     public String getMarca() {
+
         return marca;
     }
     public double getPrecio() {
+
         return precio;
     }
 
